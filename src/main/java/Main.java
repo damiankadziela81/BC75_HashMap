@@ -8,7 +8,7 @@ public class Main {
         // stores objects, need to use Wrapper Class
         // ex: (name,email),(username,userID),(country,capital)
 
-        HashMap<String,String> countries = new HashMap<String,String>();
+        HashMap<String,String> countries = new HashMap<>();
 
         //add a key and value
         countries.put("Poland","Warsaw");
@@ -42,7 +42,6 @@ public class Main {
 
         countries.clear();
         System.out.println(countries);
-
 
     }
 }
